@@ -4,8 +4,8 @@ local Job = require "plenary.job"
 local results = {}
 
 Job:new({
-	command = 'bash',
-	args = { "-c", "'gcc -c hello.c'" },
+	command = 'gcc',
+	args = { "-c", "hello.c" },
 	cwd = "/workspace/pasta1",
 	env = { ['a'] = 'b' },
 	on_stdout = function(_, line)

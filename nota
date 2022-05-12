@@ -1,0 +1,5 @@
+
+-- vim.api.nvim_buf_set_var(0, "ivan", 0)
+-- vim.api.nvim_buf_get_var()
+-- vim.api.nvim_buf_del_var()
+-- vim.fn.getbufinfo(buf_number)[1].hidden == 1
